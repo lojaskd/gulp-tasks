@@ -25,6 +25,16 @@ gulpTasks.sass(gulp, {
 });
 ```
 
+## TODO tasks
+
+ - [ ] clean
+ - [x] sass
+ - [ ] javascript
+ - [ ] javascript lint
+ - [ ] images
+ - [ ] fonts
+ - [ ] s3 deploy
+
 ## Copyright e Licença
 
 Copyright 2017 - [LojasKD.com.br](https://www.lojaskd.com.br/) sob a licença [MIT](/LICENSE).
