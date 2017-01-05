@@ -28,6 +28,7 @@ gulpTasks.sass(gulp, {
 ## TODO tasks
 
  - [ ] clean
+ - [x] copy
  - [x] sass
  - [ ] javascript
  - [ ] javascript lint

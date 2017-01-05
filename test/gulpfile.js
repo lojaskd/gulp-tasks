@@ -9,3 +9,8 @@ tasks.sass(gulp, {
   minify: true,
   beautifier: true
 });
+
+tasks.copy(gulp, {
+  src: './fixtures/static/*',
+  size: true
+});
