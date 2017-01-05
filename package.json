@@ -12,6 +12,7 @@
   "bugs": "https://github.com/LojasKD/gulp-tasks/issues",
   "scripts": {
     "test": "./node_modules/.bin/tape test/*.spec.js | tap-spec",
+    "publish": "npm publish --access=public",
     "prepublish": "npm test",
     "preversion": "npm test"
   },
