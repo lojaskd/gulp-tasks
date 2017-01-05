@@ -1,6 +1,6 @@
 'use strict';
 
-const gulp = require('gulp');
+const gulp  = require('gulp');
 const tasks = require('../');
 
 tasks.sass(gulp, {
@@ -15,3 +15,8 @@ tasks.copy(gulp, {
   src: './fixtures/static/*',
   size: true
 });
+
+gulp.task('default', [
+  'sass',
+  'copy'
+]);

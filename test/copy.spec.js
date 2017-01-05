@@ -9,6 +9,6 @@ tape('copy task', function (test) {
   exec('gulp copy', { cwd: __dirname }, function () {
     var expected = utils.readFixture('static/logo.png');
     var actual = utils.readResult('logo.png');
-    test.equal(expected, actual, 'Files copied!');
+    test.equal(expected, actual, 'Processes copy task: Files copied!');
   });
 });
