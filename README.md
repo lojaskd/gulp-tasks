@@ -1,1 +1,30 @@
-# gulp-tasks
+# LojasKD [Gulp](http://gulpjs.com/) tasks
+
+> Nota: Esse projeto requer node >=6.9.0
+
+## Instalação
+
+```
+npm install --save-dev @lojaskd/gulp-tasks
+```
+
+## Como usar
+
+```js
+/* gulpfile.js */
+
+const gulp = require('gulp');
+const gulpTasks = require('@lojaskd/gulp-tasks');
+
+/**
+ * Register the sass task
+ */
+
+gulpTasks.sass(gulp, {
+  // Task options
+});
+```
+
+## Copyright e Licença
+
+Copyright 2017 - [LojasKD.com.br](https://www.lojaskd.com.br/) sob a licença [MIT](/LICENSE).
