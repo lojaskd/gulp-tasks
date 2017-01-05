@@ -12,8 +12,8 @@
   "bugs": "https://github.com/LojasKD/gulp-tasks/issues",
   "scripts": {
     "test": "./node_modules/.bin/tape test/*.spec.js | tap-spec",
-    "prepublish": "yarn test",
-    "preversion": "yarn test"
+    "prepublish": "npm test",
+    "preversion": "npm test"
   },
   "keywords": [
     "gulp",
@@ -34,6 +34,7 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-gzip": "^1.4.0",
     "gulp-jsbeautifier": "^2.0.4",
+    "gulp-load-plugins": "^1.4.0",
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
