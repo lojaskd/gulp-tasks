@@ -4,7 +4,10 @@
   "description": "Gulp tasks para uso dos projetos da LojasKD.com.br",
   "author": "Fernando Moreira <nandomoreira.me@gmail.com>",
   "license": "MIT",
-  "repository": "LojasKD/gulp-tasks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LojasKD/gulp-tasks.git"
+  },
   "homepage": "https://github.com/LojasKD/gulp-tasks#readme",
   "bugs": "https://github.com/LojasKD/gulp-tasks/issues",
   "scripts": {
