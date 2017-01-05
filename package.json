@@ -14,7 +14,8 @@
     "test": "./node_modules/.bin/tape test/*.spec.js | tap-spec",
     "publish": "npm publish --access=public",
     "prepublish": "npm test",
-    "preversion": "npm test"
+    "preversion": "npm test && gulp preversion",
+    "postversion": "gulp postversion"
   },
   "keywords": [
     "gulp",
