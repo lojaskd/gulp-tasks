@@ -1,7 +1,9 @@
+@import "bourbon"
 
 $font-family: 'Open Sans', 'Ubuntu', Arial, Verdana, Helvetica, sans-serif
 $white-color: #fff
 $black-color: #000
+$silver-color: #ededed
 
 *
   background-color: $black-color
@@ -15,3 +17,8 @@ body
 body
   overflow: hidden
   font-family: $font-family
+  +clearfix
+
+#{$all-buttons}
+  background-color: $white-color
+  border: 1px solid $silver-color

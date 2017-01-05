@@ -1,4 +1,4 @@
-/* line 6, fixtures/input.sass */
+/* line 8, fixtures/input.sass */
 
 * {
   background-color: #000;
@@ -6,7 +6,7 @@
 }
 
 
-/* line 10, fixtures/input.sass */
+/* line 12, fixtures/input.sass */
 
 html,
 body {
@@ -15,9 +15,29 @@ body {
 }
 
 
-/* line 15, fixtures/input.sass */
+/* line 17, fixtures/input.sass */
 
 body {
   overflow: hidden;
   font-family: "Open Sans", "Ubuntu", Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+/* line 20, ../node_modules/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+
+body::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+/* line 22, fixtures/input.sass */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: #fff;
+  border: 1px solid #ededed;
 }

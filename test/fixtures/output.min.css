@@ -1,1 +1,1 @@
-*{background-color:#000;color:#fff}body,html{width:100%;height:100%}body{overflow:hidden;font-family:Open Sans,Ubuntu,Arial,Verdana,Helvetica,sans-serif}
+*{background-color:#000;color:#fff}body,html{width:100%;height:100%}body{overflow:hidden;font-family:Open Sans,Ubuntu,Arial,Verdana,Helvetica,sans-serif}body:after{clear:both;content:"";display:table}button,input[type=button],input[type=reset],input[type=submit]{background-color:#fff;border:1px solid #ededed}
