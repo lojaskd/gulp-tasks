@@ -1,7 +1,7 @@
 {
   "name": "@lojaskd/gulp-tasks",
   "version": "1.0.0",
-  "description": "Gulp tasks para uso dos projetos da LojasKD.com.br",
+  "description": "Gulp tasks para uso nos projetos da LojasKD.com.br",
   "author": "Fernando Moreira <nandomoreira.me@gmail.com>",
   "license": "MIT",
   "repository": {
