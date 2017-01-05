@@ -7,7 +7,8 @@ tasks.sass(gulp, {
   src: './fixtures/input.sass',
   dest: './dist',
   minify: true,
-  beautifier: true
+  beautifier: true,
+  size: true
 });
 
 tasks.copy(gulp, {
