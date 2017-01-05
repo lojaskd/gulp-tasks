@@ -1,0 +1,50 @@
+{
+  "name": "@lojaskd/gulp-tasks",
+  "version": "1.0.0",
+  "description": "Gulp tasks para uso dos projetos da LojasKD.com.br",
+  "author": "Fernando Moreira <nandomoreira.me@gmail.com>",
+  "license": "MIT",
+  "repository": "LojasKD/gulp-tasks",
+  "homepage": "https://github.com/LojasKD/gulp-tasks#readme",
+  "bugs": "https://github.com/LojasKD/gulp-tasks/issues",
+  "scripts": {
+    "test": "./node_modules/.bin/tape test/*.spec.js | tap-spec",
+    "prepublish": "yarn test",
+    "preversion": "yarn test"
+  },
+  "keywords": [
+    "gulp",
+    "build",
+    "tasks"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-gzip": "^1.4.0",
+    "gulp-jsbeautifier": "^2.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-size": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.4",
+    "node-bourbon": "^4.2.8",
+    "require-dir": "^0.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mkdirp": "^0.5.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
