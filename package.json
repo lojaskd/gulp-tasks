@@ -11,10 +11,11 @@
   "homepage": "https://github.com/LojasKD/gulp-tasks#readme",
   "bugs": "https://github.com/LojasKD/gulp-tasks/issues",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint ./**/*.js --quiet",
     "test": "./node_modules/.bin/tape test/*.spec.js | tap-spec",
     "publish": "npm publish --access=public",
-    "prepublish": "npm test",
-    "preversion": "npm test"
+    "prepublish": "npm test && npm run lint",
+    "preversion": "npm test && npm run lint"
   },
   "keywords": [
     "gulp",
@@ -47,7 +48,12 @@
     "require-dir": "^0.3.1"
   },
   "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
     "gulp": "^3.9.1",
+    "husky": "^0.13.3",
     "mkdirp": "^0.5.1",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"

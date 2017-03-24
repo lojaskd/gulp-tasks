@@ -1,4 +1,12 @@
 {
+  "extends": "standard",
+  "plugins": [
+    "standard",
+    "promise"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 5
+  },
   "ecmaFeatures": {
     "modules": true
   },
