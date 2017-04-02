@@ -1,4 +1,4 @@
-# LojasKD [Gulp](http://gulpjs.com/) tasks
+# LojasKD [Gulp](http://gulpjs.com/) tasks [![Code Climate](https://codeclimate.com/github/lojaskd/gulp-tasks/badges/gpa.svg)](https://codeclimate.com/github/lojaskd/gulp-tasks)
 
 > Nota: Esse projeto requer node >=6.9.0
 
