@@ -1,9 +1,3 @@
 {
-  "extends": "lojaskd-base",
-  "parserOptions": {
-    "ecmaVersion": 5
-  },
-  "ecmaFeatures": {
-    "modules": true
-  }
+  "extends": "lojaskd-base"
 }

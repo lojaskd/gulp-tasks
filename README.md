@@ -1,14 +1,14 @@
-# LojasKD [Gulp](http://gulpjs.com/) tasks [![Code Climate](https://codeclimate.com/github/lojaskd/gulp-tasks/badges/gpa.svg)](https://codeclimate.com/github/lojaskd/gulp-tasks)
+# [LojasKD](https://www.lojaskd.com.br) [Gulp](http://gulpjs.com/) tasks [![Code Climate](https://codeclimate.com/github/lojaskd/gulp-tasks/badges/gpa.svg)](https://codeclimate.com/github/lojaskd/gulp-tasks)
 
 > Nota: Esse projeto requer node >=6.9.0
 
-## Instalação
+## Installation
 
 ```
 npm install --save-dev @lojaskd/gulp-tasks
 ```
 
-## Como usar
+## Usage
 
 ```js
 /* gulpfile.js */
@@ -36,6 +36,6 @@ gulpTasks.sass(gulp, {
  - [ ] fonts
  - [ ] s3 deploy
 
-## Copyright e Licença
+## License
 
-Copyright 2017 - [LojasKD.com.br](https://www.lojaskd.com.br/) sob a licença [MIT](/LICENSE).
+Code is under [MIT License](/LICENSE) - © [LojasKD.com.br](https://www.lojaskd.com.br/)
