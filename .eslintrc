@@ -1,17 +1,9 @@
 {
-  "extends": "standard",
-  "plugins": [
-    "standard",
-    "promise"
-  ],
+  "extends": "lojaskd-base",
   "parserOptions": {
     "ecmaVersion": 5
   },
   "ecmaFeatures": {
     "modules": true
-  },
-  "env": {
-    "es6": true,
-    "node": true
   }
 }

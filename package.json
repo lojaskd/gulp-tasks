@@ -48,10 +48,8 @@
     "require-dir": "^0.3.1"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-standard": "^7.1.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^2.1.1",
+    "eslint": "^4.6.1",
+    "eslint-config-lojaskd-base": "^0.0.2",
     "gulp": "^3.9.1",
     "husky": "^0.13.3",
     "mkdirp": "^0.5.1",
