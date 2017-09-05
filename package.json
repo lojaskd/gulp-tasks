@@ -12,7 +12,8 @@
   "bugs": "https://github.com/LojasKD/gulp-tasks/issues",
   "scripts": {
     "lint": "eslint ./**/*.js --quiet",
-    "test": "NODE_ENV=test tape test/*.spec.js | tap-spec",
+    "test": "NODE_ENV=test tape tests/*.spec.js | tap-spec",
+    "test:coverage": "nyc npm test",
     "publish": "npm publish --access=public",
     "prepublish": "npm test && npm run lint",
     "preversion": "npm test && npm run lint",
@@ -33,6 +34,20 @@
     "index.js",
     "lib"
   ],
+  "nyc": {
+    "functions": 100,
+    "lines": 100,
+    "check-coverage": true,
+    "exclude": "tests/**",
+    "extension": [
+      ".js",
+      ".es6"
+    ],
+    "reporter": [
+      "text",
+      "html"
+    ]
+  },
   "dependencies": {
     "gulp-autoprefixer": "^3.1.1",
     "gulp-combine-mq": "^0.4.0",
@@ -56,6 +71,7 @@
     "gulp": "^3.9.1",
     "husky": "^0.14.3",
     "mkdirp": "^0.5.1",
+    "nyc": "^11.2.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
   }

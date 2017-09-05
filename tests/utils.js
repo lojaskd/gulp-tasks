@@ -6,7 +6,7 @@ const Path = require('path')
 
 function path () {
   const segments = [].slice.call(arguments)
-  segments.unshift('./test')
+  segments.unshift('./tests')
   return Path.join.apply(Path, segments)
 }
 
