@@ -40,10 +40,9 @@ gulpTasks.scripts(gulp, {
  - [x] copy
  - [x] stylesheets
  - [x] javascript
- - [ ] javascript lint
+ - [ ] eslint
  - [ ] images
  - [ ] fonts
- - [ ] s3 deploy
 
 ## License
 
