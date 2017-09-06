@@ -17,10 +17,19 @@ const gulp = require('gulp');
 const gulpTasks = require('@lojaskd/gulp-tasks');
 
 /**
- * Register the sass task
+ * Register the stylesheets task
  */
 
-gulpTasks.sass(gulp, {
+gulpTasks.stylesheets(gulp, {
+  // Task options
+});
+
+
+/**
+ * Register the javascripts task
+ */
+
+gulpTasks.scripts(gulp, {
   // Task options
 });
 ```
@@ -29,12 +38,11 @@ gulpTasks.sass(gulp, {
 
  - [ ] clean
  - [x] copy
- - [x] sass
- - [ ] javascript
- - [ ] javascript lint
+ - [x] stylesheets
+ - [x] javascript
+ - [ ] eslint
  - [ ] images
  - [ ] fonts
- - [ ] s3 deploy
 
 ## License
 
