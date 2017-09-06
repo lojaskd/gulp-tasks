@@ -1,5 +1,5 @@
 {
-  "name": "lkd-gulp-tasks",
+  "name": "@lojaskd/gulp-tasks",
   "version": "1.4.0",
   "description": "Gulp tasks for use in LojasKD projects",
   "author": "LojasKD development team <ti@lojaskd.com.br>",
