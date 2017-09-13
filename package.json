@@ -1,6 +1,6 @@
 {
   "name": "@lojaskd/gulp-tasks",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Gulp tasks for use in LojasKD projects",
   "author": "LojasKD development team <ti@lojaskd.com.br>",
   "license": "MIT",
